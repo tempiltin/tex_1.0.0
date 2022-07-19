@@ -298,11 +298,12 @@ section {
 }
 
 .home .slide .content {
-  width: 50rem;
+  width: 80rem;
 }
 
 .home .slide .content h3 {
   font-size: 7rem;
+  font-weight: bold;
   text-transform: capitalize;
   color: #444;
   color: #fff;

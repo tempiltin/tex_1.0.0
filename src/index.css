@@ -15,8 +15,9 @@ code {
   background: url('./assets/images/home-slide-1.jpg');
 }
 .swiper-slide2 {
-  background: url('./assets/images/header.jpg');
+  background: url('./assets/images/header.jpg'), #000;
   background-attachment: fixed;
+
 }
 .swiper-slide3 {
   background: url('./assets/images/home-slide-3.jpg');
