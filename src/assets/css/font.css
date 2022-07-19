@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "SF-Bold";
+    src: url(../fonts/SF-Pro-Display-Bold.otf);
+}
+@font-face {
+    font-family: "SF-Medium";
+    src: url(../fonts/SF-Pro-Display-Medium.otf);
+}
+@font-face {
+    font-family: "SF-Regular";
+    src: url(../fonts/SF-Pro-Display-Regular.otf);
+}
