@@ -22,3 +22,11 @@ code {
 .swiper-slide3 {
   background: url('./assets/images/home-slide-3.jpg');
 }
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logotip{
+  text-align: center;
+}
