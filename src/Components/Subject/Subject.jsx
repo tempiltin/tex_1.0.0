@@ -9,44 +9,47 @@ const Subject = () => {
 
    <div className="box-container">
 
-      <div className="box">
-         <h3>Kompiyuter engineering</h3>
+   <div className="box">
+         <h3>Buxgalteriya va audit</h3>
          <p>kunduzgi ta'lim shakli +</p>
-         <p>kechki ta'lim shakli +</p>
-         <p>kunduzgi ta'lim shakli +</p>
+         <p>kechki ta'lim shakli -</p>
+         <p>Sirtqi ta'lim shakli +</p>
       </div>
-      
+     
       <div className="box">
-         <h3>Ishlab chiqarish ta'limi </h3>
+         <h3>Sport faoliyati turlari bo'yicha</h3>
          <p>kunduzgi ta'lim shakli +</p>
-         <p>kechki ta'lim shakli +</p>
-         <p>kunduzgi ta'lim shakli +</p>
+         <p>kechki ta'lim shakli -</p>
+         <p>Sirtqi ta'lim shakli -</p>
       </div>
       <div className="box">
          <h3>Tashishni tashkil etish va transportni boshqarish</h3>
          <p>kunduzgi ta'lim shakli +</p>
          <p>kechki ta'lim shakli +</p>
-         <p>kunduzgi ta'lim shakli +</p>
+         <p>Sirtqi ta'lim shakli +</p>
       </div>
+
       <div className="box">
-         <h3>Avtomobil transportiga texnik xizmat ko'rsatish</h3>
-         <p>kunduzgi ta'lim shakli +</p>
-         <p>kechki ta'lim shakli +</p>
-         <p>kunduzgi ta'lim shakli +</p>
-      </div>
-      
-      <div className="box">
-         <h3>Buxgalteriya va audit</h3>
-         <p>kunduzgi ta'lim shakli +</p>
-         <p>kechki ta'lim shakli +</p>
-         <p>kunduzgi ta'lim shakli +</p>
-      </div>
-      
-      <div className="box">
-         <h3>Yengil sanoat</h3>
+         <h3>  Kompyuter injineringi </h3>
          <p>kunduzgi ta'lim shakli +</p>
          <p>kechki ta'lim shakli -</p>
+         <p>Sirtqi ta'lim shakli +</p>
+      </div>
+      
+      
+      <div className="box">
+         <h3> Yengil sanoat buyumlari konstruksiyasi va 
+texnologiyasi (ishlab chiqarish turlari bo‘yicha)</h3>
          <p>kunduzgi ta'lim shakli +</p>
+         <p>kechki ta'lim shakli -</p>
+         <p>Sirtqi ta'lim shakli -</p>
+      </div>
+      
+      <div className="box">
+         <h3> Maktabgacha ta’lim tashkiloti uslubchisi</h3>
+         <p>kunduzgi ta'lim shakli +</p>
+         <p>kechki ta'lim shakli -</p>
+         <p>Sirtqi ta'lim shakli -</p>
       </div>
       
 
