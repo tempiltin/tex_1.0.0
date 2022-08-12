@@ -1,10 +1,31 @@
 import React from 'react'
-
+import logo from '../../assets/images/logo.15c67663.png'
+import logo1 from '../../assets/images/gerb.png'
 const Header = () => {
   return (
     
 <section className="home">
-
+   <div className="length">
+      <div className="mycontainer">
+         <div className="row justify-content-between align-items-center">
+            <div className="col-auto">
+               <div className="img_logo1">
+               <img src={logo1} alt="" />
+               </div>
+            </div>
+              <div className="col-auto">
+                <h1 className="heading">
+                  Narpay xizmat ko'rsatish texnikumi
+                </h1>
+              </div>
+            <div className="col-auto">
+               <div className="img_logo">
+               <img src={logo} alt="" />
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 <div className="swiper home-slider">
    
    <div className="swiper-wrapper">

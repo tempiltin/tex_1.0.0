@@ -44,7 +44,7 @@ section {
 
 .heading-link {
   text-align: center;
-  background: url(../images/heading-bg.jpg) no-repeat;
+  background: url('../images/heading-bg.jpg') no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -54,7 +54,13 @@ section {
   text-transform: capitalize;
   color: #444;
 }
-
+.length{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .heading-link p {
   font-size: 2rem;
   line-height: 2;
@@ -112,8 +118,11 @@ section {
           align-items: center;
   z-index: 1000;
 }
-
+.logo{
+  cursor: pointer !important;
+}
 .header .logo {
+  cursor: pointer;
   margin-right: auto;
   font-size: 2.5rem;
   text-transform: capitalize;

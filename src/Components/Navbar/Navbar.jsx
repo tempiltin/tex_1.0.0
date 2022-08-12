@@ -1,19 +1,20 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-// const logo = "../../assets/images/logo-real.png"
+
+import {BsTelephone} from 'react-icons/bs'
 const Navbar = () => {
     return (
         <>
             <header className="header">
 
-                <Link to={'/'} className="logo"> Narpay xizmat ko'rsatish texnikumi</Link>
+                <a href='tell:+998997510775' className="logo"> <BsTelephone /></a>
 
                 <nav className="navbar">
                     <div id="close-navbar" className="fas fa-times"></div>
                     <a href="#!">Bosh sahifa</a>
-                    <a href="#!">Biz haqimizda</a>
-                    <a href="#!">Kurslar</a>
-                    <a href="#!">Bog'lanish</a>
+                    <a href="#about">Biz haqimizda</a>
+                    <a href="https://www.facebook.com/groups/242105380254292/" target={' _blank'}>Facebook</a>
+                    <a href="https://t.me/NarpayXKT/">Telegram</a>
+                    <a href="https://my.dtm.uz/" target={' _blank'}>Hujjat topshirish</a>
                 </nav>
 
                 <div className="icons">
@@ -22,6 +23,7 @@ const Navbar = () => {
                 </div>
 
             </header>
+      
 
 
         </>

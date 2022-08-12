@@ -6,7 +6,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.mycontainer{
+  width: 80%;
+  margin:0 auto;
+}
+.img_logo{
+  width: 130px;
+  
+}
+.img_logo1{
+  width: 100px;
+  
+}
+.img_logo img{
+  width: 100%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -29,4 +43,5 @@ code {
 }
 .logotip{
   text-align: center;
+  font-size: 32px;
 }
