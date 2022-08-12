@@ -5,7 +5,7 @@ const Header = () => {
   return (
     
 <section className="home">
-   <div className="length">
+   <div className="length d-none d-xl-block">
       <div className="mycontainer">
          <div className="row justify-content-between align-items-center">
             <div className="col-auto">
@@ -13,7 +13,7 @@ const Header = () => {
                <img src={logo1} alt="" />
                </div>
             </div>
-              <div className="col-auto">
+              <div className="col-6">
                 <h1 className="heading">
                   Narpay xizmat ko'rsatish texnikumi
                 </h1>
